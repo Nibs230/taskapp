@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_contact"/>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <!--                                                         -->
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:id="@+id/iconsdown">
+
+            <!-- home ka -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_border"
+                android:padding="2dp"
+                android:id="@+id/home1"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/home"
+                    android:id="@+id/homeimg" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="     Home"
+                    android:textColor="#181718"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/hometxt"
+                    android:layout_below="@+id/homeimg"/>
+
+            </RelativeLayout>
+
+            <!-- file -->
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="@drawable/background_border"
+                android:id="@+id/file1">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/file"
+                    android:id="@+id/fileimg"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="   File case"
+                    android:textColor="#181718"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/filetxt"
+                    android:layout_below="@+id/fileimg"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_border"
+                android:id="@+id/contact1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/contact"
+                    android:id="@+id/contactimg" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="   Contact"
+                    android:textColor="#181718"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/contacttxt"
+                    android:layout_below="@+id/contactimg"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border"
+                android:layout_weight="1"
+                android:id="@+id/chat1">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/chatbot"
+                    android:id="@+id/chatbotimg" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="     Chat"
+                    android:textColor="#181718"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/chatbottxt"
+                    android:layout_below="@+id/chatbotimg"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_border"
+                android:id="@+id/stats1">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/stats"
+                    android:id="@+id/statsimg" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text=" Stats"
+                    android:textColor="#181718"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/statstxt"
+                    android:layout_below="@+id/statsimg"/>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+        <!--                                                         -->
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>
